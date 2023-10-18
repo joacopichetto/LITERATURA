@@ -1,0 +1,49 @@
+body{
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 6%, rgba(121,9,28,1) 65%, rgba(198,20,23,1) 100%);
+}
+
+#title{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    
+}
+
+#title:hover{
+    color: rgb(238, 8, 8);
+    transform: scale(1.1);
+}
+
+#introduccion{
+    text-align: center;
+    color: white;
+    border: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    background-color: rgb(129, 7, 7);
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#introduccion h2{
+    color: rgb(0, 0, 0);
+}
+
+img {
+    border-radius: 8px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#personajes{
+    text-align: center;
+    color: white;
+}
+
+#personajes:hover {
+    color: rgb(238, 8, 8);
+    transform: scale(1.1);
+}
