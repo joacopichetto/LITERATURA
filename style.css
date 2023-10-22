@@ -1,6 +1,9 @@
 body{
     background: rgb(0,0,0);
 background: radial-gradient(circle, rgba(0,0,0,1) 6%, rgba(121,9,28,1) 65%, rgba(198,20,23,1) 100%);
+margin: 0; 
+    padding: 0; 
+    line-height: 1.6; 
 }
 
 #title{
@@ -47,3 +50,57 @@ img {
     color: rgb(238, 8, 8);
     transform: scale(1.1);
 }
+
+.accordion {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.accordion-header {
+    background-color: #c24040;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+
+
+.accordion-item.active .accordion-content {
+    display: block;
+    max-height: 1000px; 
+}
+
+.accordion-header:hover {
+    background-color: yellow; 
+}
+
+
+/* Estilos para el ícono de flecha */
+.accordion-icon {
+    margin-right: 10px; /* Espacio entre el ícono y el texto del encabezado */
+    transition: transform 0.3s; /* Agregar una transición al ícono */
+}
+
+/* Rotar el ícono cuando la sección está abierta */
+.accordion-item.active .accordion-icon {
+    transform: rotate(90deg);
+}
+
+
+
+   
+
+
