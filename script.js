@@ -28,3 +28,17 @@ accordionHeaders.forEach(header => {
         });
     });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var lista = document.getElementById("miLista");
+    var elementos = lista.getElementsByTagName("li");
+
+    for (var i = 0; i < elementos.length; i++) {
+        elementos[i].addEventListener("click", function () {
+            this.innerHTML = "¡Clickeado!";
+        });
+    }
+});
+
