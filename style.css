@@ -1,9 +1,7 @@
 body{
     background: rgb(0,0,0);
 background: radial-gradient(circle, rgba(0,0,0,1) 6%, rgba(121,9,28,1) 65%, rgba(198,20,23,1) 100%);
-margin: 0; 
-    padding: 0; 
-    line-height: 1.6; 
+ 
 }
 
 #title{
@@ -133,9 +131,5 @@ img {
     background-color: #2980b9;
 }
 
-
-
-
-   
 
 
