@@ -93,9 +93,16 @@ img {
 
 #joaco {
     
-    width: 70%;
+    width: 100%;
+    border-radius: 15px;
     
    
+}
+.container{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
 }
 
 
